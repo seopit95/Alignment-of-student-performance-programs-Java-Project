@@ -18,9 +18,9 @@ Java와 MySQL을 활용한 성적 관리 프로그램 제작
 
 
 
-![크기변환 프로그램구조도](https://user-images.githubusercontent.com/115531849/195787441-5c5fc253-52f4-47c2-95ad-b49a9de70243.png)
+![프로그램구조도](https://user-images.githubusercontent.com/115531849/195788749-4afc2685-fad8-40c7-a0cc-f17f47e0c832.png)
 
-![학생정보입력](https://user-images.githubusercontent.com/115531849/195783784-57c7b0ea-1e44-4d5b-ba57-c14faf028ad5.png)
+![학생정보입력](https://user-images.githubusercontent.com/115531849/195788764-bc7ad041-3a3b-40f3-a0b5-d534cd72f50c.png)
 
 ![학생정보검ㅁ색](https://user-images.githubusercontent.com/115531849/195783808-0dc345dd-480f-4973-be77-5bf09a78ca08.png)
 
