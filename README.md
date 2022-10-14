@@ -18,4 +18,10 @@ Java와 MySQL을 활용한 성적 관리 프로그램 제작
 
 
 프로젝트 구조도
+
 ![image](https://user-images.githubusercontent.com/115531849/195748516-073d65b1-84d4-4b45-b742-71deeaaba266.png)
+
+실행 메인화면
+
+![image](https://user-images.githubusercontent.com/115531849/195748772-6fd61811-3615-41c4-9b3d-09422a955fa6.png)
+
