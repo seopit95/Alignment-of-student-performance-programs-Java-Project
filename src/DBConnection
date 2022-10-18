@@ -163,17 +163,14 @@ public class DBConnection {
 	public int update(Student student) {
 		PreparedStatement ps = null;
 		int UpdateReturnValue = -1;
-		String updateQuery = "UPDATE student SET kor = ?, eng = ?, math = ?, total = ?, avr = ?, grade = ? where no = ? ";
+		String updateQuery = "call procedure_update_student(?,?,?,?)";
 
 		try {
 			ps = connection.prepareStatement(updateQuery);
-			ps.setInt(1, student.getKor());
-			ps.setInt(2, student.getEng());
-			ps.setInt(3, student.getMath());
-			ps.setInt(4, student.getTotal());
-			ps.setDouble(5, student.getAvr());
-			ps.setString(6, student.getGrade());
-			ps.setString(7, student.getNo());
+			ps.setString(1, student.getNo());
+			ps.setInt(2, student.getKor());
+			ps.setInt(3, student.getEng());
+			ps.setInt(4, student.getMath());
 			UpdateReturnValue = ps.executeUpdate();
 		} catch (Exception e) {
 			System.out.println("update 오류발생" + e.getMessage());

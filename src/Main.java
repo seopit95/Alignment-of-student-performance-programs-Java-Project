@@ -136,7 +136,7 @@ public class Main {
 			} else if (deleteReturnValue == 0) {
 				System.out.println("삭제할 번호가 존재하지 않습니다. " + deleteReturnValue);
 			} else {
-				System.out.println("삭제성공입니다. 리턴값: " + deleteReturnValue);
+				System.out.println("삭제성공입니다.");
 			}
 			dbConnection.close();
 		} catch (InputMismatchException e) {
@@ -306,7 +306,7 @@ public class Main {
 			if (insertReturnValue == -1) {
 				System.out.println("삽입 실패입니다.");
 			} else {
-				System.out.println("삽입 성공입니다. 리턴값 : " + insertReturnValue);
+				System.out.println("삽입 성공입니다.");
 			}
 			dbConnection.close();
 		} catch (InputMismatchException e) {
